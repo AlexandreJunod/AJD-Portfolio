@@ -1,36 +1,22 @@
+<!-- 
+Author : Alexandre Junod
+Page : index.php
+Description : Home page -->
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Page Title</title>
-      <style>
-        body{
-          padding: 50px;
-        }
-
-        .trigger{
-          width: 200px;
-          height: 200px;
-          border: 20px solid #999;
-          background: #ddd;
-        }
-
-        .box{
-          display: inline-block;
-          background: pink;
-          width: 200px;
-          height: 200px;
-          transition: transform 300ms ease-in-out;
-        }
-
-        .box:hover{
-          transform: translate(200px, 150px) rotate(20deg);
-        }
-
-        .trigger:hover .box{
-          transform: translate(200px, 150px) rotate(20deg)
-        }
-      </style>
-  </head>
-  <body>
-    <div class="trigger"><div class="box"></div></div>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="includes/style.css"/>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <br><h1>Bienvenue sur le portfolio en ligne d'Alexandre Junod</h1>
+        <div class="Container">
+            <a href="CV.html"><div class="CV">CV</div></a>
+            <a href="Experiences.html"><div class="Experiences">Experiences</div></a>
+            <a href="Objectifs.html"><div class="Objectifs">Objectifs</div></a>
+            <a href="Diplomes.html"><div class="Diplomes">Diplômes</div></a>
+        </div>
+    </body>
 </html>

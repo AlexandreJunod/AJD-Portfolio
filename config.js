@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":1,"title":"","author":"JUNOD Alexandre","fileName":"CV_AJD.pdf","bounds":[[909,1286]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
