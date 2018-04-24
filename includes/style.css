@@ -1,13 +1,13 @@
 body{
     background-color: gainsboro;
     color: black;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center
 }
 
 .Container{
     position:absolute;
-    font-size: 70px;
+    font-size: 3vw;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 25%;
     height: 50%;
@@ -21,7 +21,7 @@ body{
 
 .Text{
     position:absolute;
-    font-size: 25px;
+    font-size: 2vw;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 75%;
     height: 80%;
